@@ -26,9 +26,9 @@ which give us the keys:
 
 ![keys.png](keys.png)
 
-Now we can use these keys and the tool again to create a new zip with our own key:
+Now we can use these keys and the tool again to create a new zip with our own password, for example "easy"
 
 ```
-
+./bkcrack -C ../super_secret.zip -k a33fbdc5 5b49420e 6589766e _U new_zip.zip easy
 ```
 ![newzip.png](newzip.png)
