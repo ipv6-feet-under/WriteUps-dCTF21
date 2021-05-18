@@ -1,7 +1,7 @@
 Extraterrestial Communication
 =============
 
-We are given a sound file: [A_message_from_outer_space](/sources/A_message_from_outer_space.mp3)
+We are given a sound file: [A_message_from_outer_space](sources/A_message_from_outer_space.mp3)
 
 Listening to the mp3 it sounds like modulation of some data.
 
@@ -12,5 +12,5 @@ You can download a SSTV-Reciever at: [RX-SSTV](https://oe5lxr.at/decode-sstv-wit
 
 Refiguring the output of your media player to the in input of the reciever or just by playing with another device and recording with your microphone you will get the flag:
 
-<img src="/sources/rec.PNG">
+<img src="sources/rec.PNG">
 
