@@ -12,5 +12,5 @@ You can download a SSTV-Reciever at: [RX-SSTV](https://oe5lxr.at/decode-sstv-wit
 
 Refiguring the output of your media player to the in input of the reciever or just by playing with another device and recording with your microphone you will get the flag:
 
-![rec](/sources/rec.png)
+<img src="/sources/rec.png">
 
