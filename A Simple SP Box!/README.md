@@ -121,11 +121,7 @@ while True:
 recv = nc.recv_all()
 print(recv.decode('utf-8'))
 ```
-
-The full script:
-![A_simple_SP_box.py](A_simple_SP_box.py)
-
-
+[The full script](A_simple_SP_box.py)
 
 
 
