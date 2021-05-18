@@ -26,7 +26,7 @@ for character in ALPHABET:
 	newlist.append(newchar)
 
 
-VORZWEI = {k : v for k, v in zip(ALPHABET, newlist)}
+NEW_ALPHABET = {k : v for k, v in zip(ALPHABET, newlist)}
 
 
 def decrypt(cipher):
