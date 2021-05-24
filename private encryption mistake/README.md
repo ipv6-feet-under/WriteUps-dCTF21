@@ -72,7 +72,11 @@ The key is coded on 4096 bits like in the linked WriteUp. First we need to conve
 
 
 
+
+
+
 ###The most time consuming part of this challenge was propably translating the image to text, since every free OCR program seemed to fail you basically have to type it by hand.
+
 ###We can then use our [text](rsa_id.txt) and basically follow this write-up: https://blog.cryptohack.org/twitter-secrets
 
 
