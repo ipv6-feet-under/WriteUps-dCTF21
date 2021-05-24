@@ -81,7 +81,7 @@ for character in ALPHABET:
 
 NEW_ALPHABET = {k : v for k, v in zip(ALPHABET, newlist)}
 ```
-After we built or alphabet "NEW_ALPHABET" which represents the input before two times of encryption, we can use it to decrypt the received flag half the "rounds" it got encrypted and send it to the server to verify it.
+After we built our alphabet "NEW_ALPHABET" which represents the input before two times of encryption, we can use it to decrypt the received flag half the "rounds" it got encrypted and send it to the server to verify it.
 
 ```py
 def decrypt(cipher):
