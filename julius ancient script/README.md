@@ -10,7 +10,9 @@ rq7t{7vH_rFH_vI6_pHH1_qI67}
 With the words "Julius" and "ancient" and the format of the flag it seems to be a Caesar cipher.
 There are several websites offering a decryption of the Caesar cipher like: https://cryptii.com/pipes/caesar-cipher
 
-Putting our flag into the decrypor we get:
+
+We want our flag to start with 'dctf' so we need to set a shift of 12:
+
 ![decr.PNG](images/decr.PNG)
 ```
 dc7f{7hT_dRT_hU6_bTT1_cU67}
