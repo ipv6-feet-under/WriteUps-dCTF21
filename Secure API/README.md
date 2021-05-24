@@ -13,7 +13,7 @@ Okay we aren't authorized however it tells us to try it with guest credentials. 
 
 and check the response:
 
-![guest_response.png](guest_response.png)
+![guest_token.png](guest_token.png)
 
 Alright we get a JWT token so let's send that to the API to authorize:
 
