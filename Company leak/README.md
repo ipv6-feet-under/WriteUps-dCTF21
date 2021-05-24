@@ -26,9 +26,11 @@ which give us the keys:
 
 ![keys.png](keys.png)
 
-Now we can use these keys and the tool again to create a new zip with our own password, for example "easy"
+Now we can use these keys and the tool again to create a new zip which contains the content of the super_secret.zip, however this time we can set our own password. In this example we set the password to "easy".
 
 ```
 ./bkcrack -C ../super_secret.zip -k a33fbdc5 5b49420e 6589766e -U new_zip.zip easy
 ```
 ![newzip.png](newzip.png)
+
+Now we can just decompress the new.zip with our set password "easy" and loot the secret data which in this case contains our flag :)
