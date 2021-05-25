@@ -27,10 +27,10 @@ def play():
             print(flag)
             break
 ```
-okay so here is the check whether we put in the right flag or not. Our input is the guess.
+Okay so here is the check whether we put in the right flag or not. Our input is the guess.
 We also only have 150 tries to get it right.
 
-The flag however is encrypted with the encrypt-function so let's what that one is doing.
+The flag however is encrypted with the encrypt-function so let's find out what that one is doing.
 
 ```py
 def encrypt(message):
