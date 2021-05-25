@@ -27,13 +27,13 @@ cipher = DES3.new(key, DES3.MODE_CFB, b"00000000")
 nc = nclib.Netcat(('dctf-chall-just-take-your-time.westeurope.azurecontainer.io', 9999), verbose=True)
 start = "="
 recv = nc.recv_until(start.encode('utf-8'))
-a, ding  = recv.splitlines()
+a, term  = recv.splitlines()
 
 ding=ding.decode()
 
 ###Getting the factors from recv:
-x = int(ding.split(' ')[0])
-y = int(ding.split(' ')[2])
+x = int(term.split(' ')[0])
+y = int(term.split(' ')[2])
 
 ###Calculating and answering:
 z=x*y
@@ -43,13 +43,13 @@ nc.send(z + '\n')
 
 ###Recieving the next part - decryption
 recv = nc.recv_exactly(180)
-a, b, wichtig, c  = recv.splitlines()
-wichtig = wichtig.decode()
-print('wichtig: ' + wichtig)
-wichtig = bytes.fromhex(wichtig)
+a, b, important, c  = recv.splitlines()
+important = important.decode()
+print('important: ' + important)
+important = bytes.fromhex(important)
 
 ###decrypting the RES and sending back
-decr = cipher.decrypt(wichtig)
+decr = cipher.decrypt(important)
 nc.send(decr + b'\n')
 
 
@@ -60,4 +60,4 @@ The little script solved the calculation and the following DES and recieved the 
 
 ![flag](images/flag.png)
 
-Setting up the WriteUp afterwards it looks like the script is failing sometimes. Didn't had time to debug, maybe because of the length of the cipher or the timne initialization... just restart when it's wrong.
+Setting up the WriteUp afterwards it looks like the script is failing sometimes. Didn't had time to debug.. maybe because of the length of the cipher or the time initialization... just restart when it's wrong.
