@@ -19,6 +19,6 @@ Sweet, after a short enumeration we find an interesting file in ./lib let's have
 
 ![security_py.png](security_py.png)
 
-Looks like there is a string that got base64 decoded and reversed afterwards as a password, let's use [CyberChef](https://gchq.github.io/CyberChef/) to revert that:
+Looks like there is a string that got base64 encoded and reversed afterwards as a password, let's use [CyberChef](https://gchq.github.io/CyberChef/) to revert that:
 
 ![flag.png](flag.png)
