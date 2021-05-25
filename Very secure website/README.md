@@ -31,7 +31,7 @@ We use https://md5hashing.net/hash/tiger128,4 to crack our username hash which t
 
 ![admin.png](admin.png)
 
-However we can't do that for our password. But what we can do is realizing that they only use a equal-equal operator (==) to compare the hash to the password. And we also know that any string starting with a "0e" in PHP is essential a "0" when compared with an equal-equal operator (for reference: https://www.whitehatsec.com/blog/magic-hashes/). So all we need to is find another string that translated to 0. These are calles "magic hashes" and can be found on this repo for example: https://github.com/spaze/hashes
+However we can't do that for our password. But what we can do is realizing that they only use a equal-equal operator (==) to compare the hash to the password. And we also know that any string starting with a "0e" in PHP is essential a "0" when compared with an equal-equal operator (for reference: https://www.whitehatsec.com/blog/magic-hashes/). So all we need to do is to find another string that translates to 0. These are called "magic hashes" and can be found on this repo for example: https://github.com/spaze/hashes
 
 So we can just login using these credentials:
 ```
