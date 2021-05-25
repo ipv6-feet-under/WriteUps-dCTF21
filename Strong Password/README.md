@@ -6,7 +6,7 @@ We are given a zip file. Inside we can see a lorem_ipsum.txt but we can't extrac
 
 ![zip.png](images/zip.png)
 
-At first we can try john to generate a hash and crack it. Therefore we have to generate the hash:
+At first we can try john (john-the-ripper) to crack the zip. Therefore we have to generate the hash:
 
 ```
 $ zip2john ./strong_password.zip > john.txt  
