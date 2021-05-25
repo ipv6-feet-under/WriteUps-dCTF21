@@ -50,7 +50,7 @@ So first it checks if the message, which is the flag in our case has an even len
 	return ''.join(message)
 ```
 
-Afterwards it converts the message into a list-object and calculates how many "rounds" it is going to encrypt it. We don't need to understand how many rounds exactly it will be done, but we can see because of the 2* it's always an even amount of rounds. This will help us in the following.
+Afterwards it converts the message into a list-object and calculates how many "rounds" it is going to encrypt it. We don't need to understand how many rounds its exactly going to take, but we can see because of the 2* it's always an even amount of rounds. This will help us in the following.
 
 It then maps the message with another alphabet S_box and scrambles it up by shifting every 2nd letter to the front and returns the encrypted message afterwards.
 
@@ -67,7 +67,7 @@ If we can get the random alphabet we can use it to reverse the encryption.
 We wrote a short python script to solve it for us.
 
 First we solve the shuffled alphabet in the current session. We can do that by just sending every letter twice: "AA" for example.
-Usually this wouldn't help a lot, because it get encrypted multiple rounds, however in this specific case we know one thing for sure: it always get's encrypted an even number. If we send every letter twice we always know what our sent letter was before two rounds of encryption. 
+Usually this wouldn't help a lot, because it gets encrypted multiple rounds, however in this specific case we know one thing for sure: it always get's encrypted even. If we send every letter twice we always know what our sent letter was before two rounds of encryption. 
 
 ```py
 for character in ALPHABET:
