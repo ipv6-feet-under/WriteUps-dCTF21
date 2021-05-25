@@ -3,7 +3,7 @@ A Simple SP Box!
 
 ![challenge.png](challenge.png)
 
-We are given a netcat adress + port and the python script which is running on it.
+We are given a netcat address + port and the python script which is running on it.
 
 Let's check out what they want us to solve first:
 
