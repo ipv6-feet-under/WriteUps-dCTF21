@@ -3,7 +3,7 @@ Secure API
 
 ![challenge.png](challenge.png)
 
-So let's open in it a browser or curl it to see what we have here:
+So let's open it in a browser or curl it to see what we have here:
 
 ![url_browser.png](url_browser.png)
 
