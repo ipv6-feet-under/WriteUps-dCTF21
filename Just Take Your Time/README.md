@@ -59,3 +59,5 @@ nc.recv_all()
 The little script solved the calculation and the following DES and recieved the flag:
 
 ![flag](images/flag.png)
+
+Setting up the WriteUp afterwards it looks like the script is failing sometimes. Didn't had time to debug, maybe because of the length of the cipher or the timne initialization... just restart when it's wrong.
