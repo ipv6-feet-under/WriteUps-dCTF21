@@ -1,7 +1,7 @@
 Just Take Your Time
 ====================
 
-Looking at the [code](source/orig_just-take-your-time.py) this challange needs us to first calculate a product and than decrypting some DES.
+Looking at the [code](source/orig_just-take-your-time.py) this challange needs us to calculate a product first and then decrypting some DES.
 
 Connecting with NC looks like:
 
